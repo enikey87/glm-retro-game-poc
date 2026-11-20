@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="紅龍傳說 Legend of the Red Dragon — a lost 1994 Famicom cartridge, remastered. HTML5 prototype built with Phaser 3." />
+    <title>紅龍傳說 · Legend of the Red Dragon (1994 / Remastered)</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #050308;
+        height: 100%;
+        overflow: hidden;
+      }
+      #game {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #game canvas {
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
