@@ -38,7 +38,7 @@ export class TitleScene extends Phaser.Scene {
     this.add.rectangle(520, GROUND_Y, 6, 78, 0x2a1e18).setOrigin(0.5, 1)
 
     // the monk, waiting
-    const monk = this.add.sprite(330, GROUND_Y - 24, 'monk-idle').setScale(1)
+    const monk = this.add.sprite(640, GROUND_Y - 24, 'monk-idle').setScale(1)
     this.time.addEvent({ delay: 400, repeat: -1, callback: () => monk.setTexture(monk.texture.key === 'monk-idle' ? 'monk-walk1' : 'monk-idle') })
 
     // embers

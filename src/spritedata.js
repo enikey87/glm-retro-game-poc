@@ -679,7 +679,7 @@ export const PAL_HAZ = {
   c: 0xb5a98c,
   B: 0x4a4550,
   b: 0x2a2732,
-  R: 0x8c1626,
+  R: 0xb01e30,
   G: 0xf6c24a,
   g: 0xc28a1e,
   F: 0xff7a2a,
